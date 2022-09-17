@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nikorn Nuan-aun</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<head>
+    <style>
+        body {
+            background-color: #16171D;
+            color: #fcfcfc
+        }
+    </style>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #3e8e41
+        }
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .jumbotron {
+            background-color: #16171D;
+        }
+
+        .documentation .section-preview {
+            padding: 15px;
+        }
+
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .container {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        .heading {
+            cursor: pointer;
+        }
+
+        .callback {
+            padding: 30px;
+            background: #007CC7;
+            color: white;
+
+        }
+
+        .callback .h-1 {
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+        .callback .p-1 {
+            font-size: 10px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .callback .btn.btn-primary {
+            font-size: 12px;
+            background: #2845BA;
+            border-radius: 0px;
+            width: 130px;
+            height: 50px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .callback .btn.btn-primary:hover {
+            background-color: #3f59c0;
+        }
+
+        .callback .form-control {
+            width: 200px;
+            height: 50px;
+            box-shadow: none;
+        }
+
+        ::placeholder {
+            font-size: 12px;
+            color: black !important;
+            font-weight: 600;
+        }
+
+        @media (max-width:500px) {
+            body {
+                padding: 20px 0;
+
+            }
+
+            .callback .form-control {
+                width: 100%;
+                height: 50px;
+                margin-bottom: 15px;
+            }
+
+            .callback .btn.btn-primary {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<div class="jumbotron text-center">
+    <h1>Contact</h1>
+</div>
+
+<body>
+    <!-- Menu -->
+    <table style="width:100%; text-align: center">
+        <tr>
+            <td>
+                <Button class="button">
+                    <h3><a href="index.html">Profile</a></h3>
+                </Button>
+            </td>
+            <td>
+                <Button class="button">
+                    <h3><a href="contact.html">Contact</a></h3>
+                </Button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+    <div class="container">
+        <div class="callback d-flex flex-column align-items-center justify-content-center">
+            <div class="heading d-flex flex-column align-items-center justify-content-center">
+                <span class="fas fa-headphones"></span>
+                <p class="h-1">Get a Call Back</p>
+                <p class="p-1">Leave your phone number.we will call back</p>
+            </div>
+            <div class="d-md-flex">
+                <div class="row">
+                    <div class="col-md-5 col-12 me-md-4">
+                        <input class="form-control" type="text" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-5 col-12 ms-md-1">
+                        <input class="form-control" type="text" placeholder="Phone No">
+                    </div>
+                </div>
+                <div class="btn btn-primary">Submit</div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
